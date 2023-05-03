@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 0 auto;
+}
+
+li {
+  margin-left: 0.5em;
+  border: solid 1px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+li a{
+
+  text-decoration: none;
+}
+
+.film-box{
+  border-style: solid;
+  padding-left: 20%;
+  margin: auto;
+}
+
+.film-list{
+  border-style: solid;
+  width: 400px;
+  text-align: left;
+}
+
+.releases{
+  border-style: solid;
+  background-color: lightblue;
+  color: navy;
+}
